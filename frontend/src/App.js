@@ -6,6 +6,7 @@ import CrearUsuarios from './components/CrearUsuarios';
 import ListaUsuario from './components/ListaUsuario';
 import ActualizarUsuarios from './components/ActualizarUsuario';
 import EstadoResultados from './components/Estado';
+import { TablaGastos } from './components/TablaGastos';
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
           <Route path='/CrearUsuarios' element={ <CrearUsuarios/> } />
           <Route path='/edit/:id' element={ <ActualizarUsuarios/> } />
           <Route path='/EstadoResultados' element={ <EstadoResultados/> } />
-          
+          <Route path='/TablaGastos' element={ <TablaGastos/> } />
          
         </Routes>
       </div>

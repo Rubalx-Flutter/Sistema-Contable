@@ -19,7 +19,8 @@ const ListaUsuario = () => {
 
   return (
     <div className="row">
-      {lista.map(list => (
+      {
+      lista.map(list => (
         <div className="col-md-4 p-2" key={list._id}>
           <div className="card">
             <div className="card-header">

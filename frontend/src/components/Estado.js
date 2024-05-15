@@ -76,7 +76,46 @@ const EstadoResultados = () => {
     <div className="col-md-4 p-2" >
       <div className="card">
         <div className="card-header">
-          <h5>Gastos de Venta: {lista.nombre}</h5>
+          <h5>Gastos Directos: {lista.nombre}</h5>
+          <h5>Gastos Academicos: {lista.nombre}</h5>
+          <h5>Gastos Profesores: {lista.nombre}</h5>
+          <h5>Gastos de Mantenimiento: {lista.nombre}</h5>
+          <h2>Utilidad Bruta: {lista.nombre}</h2>
+        </div> 
+      </div>
+
+      <div className="card">
+        <div className="card-header">
+          <h5>Gastos Administrativos: {lista.nombre}</h5>
+          <h5>Gastos Ventas: {lista.nombre}</h5>
+          <h2>Utilidad de Operación{lista.nombre}</h2>
+        </div> 
+      </div>
+
+      <div className="card">
+        <div className="card-header">
+          <h5>Gastos Extraordinarios: {lista.nombre}</h5>
+          <h5>Gastos Financieros: {lista.nombre}</h5>
+          <h5>Diviendo Daniel: {lista.nombre}</h5>
+          <h5>Diviendo Esther: {lista.nombre}</h5>
+          <h5>Diviendo Felicitas: {lista.nombre}</h5>
+          <h5>Dividendo Luis: {lista.nombre}</h5>
+          <h5>Dividendo Ricardo: {lista.nombre}</h5>
+          <h2>Utilidad Pre - Proyectos {lista.nombre}</h2>
+        </div> 
+      </div>
+
+      <div className="card">
+        <div className="card-header">
+          <h5>Gastos Proyectos: {lista.nombre}</h5>
+          <h2>Utilidad Post - Proyectos: {lista.nombre}</h2>
+        </div> 
+      </div>
+
+      <div className="card">
+        <div className="card-header">
+          <h5>Impuestos: {lista.nombre}</h5>
+          <h2>Utilidad Neta: {lista.nombre}</h2>
         </div> 
       </div>
     </div>
