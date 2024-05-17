@@ -3,6 +3,10 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
+
+import { Dashboard, dashboardLoader } from "./pages/Dashboard";
+
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -15,9 +19,9 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return (
+  return <div className="App">
     <RouterProvider router={router} />
-  )
+  </div>
 }
 
 export default App
